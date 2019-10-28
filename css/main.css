@@ -1,0 +1,628 @@
+/*Global Css*/
+*{
+	font-family: 'Raleway', san-serif;
+}
+
+/*Navbar Section*/
+	.navbar{
+	    background: linear-gradient(to right, #00867d, #0090a0);
+	}
+	.navbar .nav-link{
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 16px;
+		padding-left: 1.1rem !important;
+		padding-right: 1.1rem !important;
+	}
+	.navbar .nav-item{
+		padding-top: 1%;
+		transition: all 0.15s ease-out;
+		margin-left: 1rem;
+	}
+	.navbar .nav-item:hover, .navbar .nav-item.active:hover{
+	    border-bottom: 4px solid #0fd48b;
+	}
+	.navbar .nav-item.active{
+		border-bottom: 4px solid #11f9d8;
+	}
+	.navbar .btn-custom{
+	    background: #00c29e;
+	    border: none;
+	}
+	.navbar .btn-custom:hover{
+		transform: scale(1.1);
+		border: none;
+	}
+	.navbar-toggler-icon{
+		background: url(../images/menu-button-of-three-horizontal-lines.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+/*Banner Section*/
+
+	.banner{
+		background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/banner.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	.banner .row{
+		text-align: center;
+		min-height: 630px;
+	}
+	.banner .row h1{
+		color: #fff;
+		font-weight: 600;
+		font-size: 44px;
+	}
+	.banner .row .highlight{
+		font-weight: 300;
+	}
+	.banner .btn{
+		margin-top: 4%;
+		text-transform: uppercase;
+		border: 2px solid #fff;
+		color: #fff;
+		border-radius: 5px;
+		transition: all 0.2s linear;
+	}
+	.btn-cta{
+		background: linear-gradient(to right, #00867d, #0090a0);
+	}
+	.btn-ghost{
+		background: none;
+	}
+	.btn-cta:hover{
+		transform: scale(1.1);
+		border: 2px solid #fff;
+	}
+	.btn-ghost:hover{
+		transform: scale(1.1);
+		border: 2px solid #fff;
+	}
+
+/*About Section*/
+
+	.about{
+		background: #e9e9e9;
+	}
+	.about .row{
+		text-align: center;
+		min-height: 170px;
+	}
+	.about .row .col-12 h1{
+		font-weight: 600;
+		color: #222;
+	}
+	.about .row .col-12 p{
+		line-height: 1.2;
+		font-size: 18px;
+	}
+	.about .row.promises{
+	    min-height: 400px;
+	}
+	.about .row .card{
+	    background: #fff;
+	    min-height: 360px;
+	}
+	.about .row .card .card-body img{
+	    margin-bottom: 5%;
+	}
+	.about .row .card .card-body h5{
+	    font-weight: 600;
+	    font-size: 19px;
+	}
+	.about .row .card .card-body p{
+	    font-size: 16px;
+	}
+
+/*How It Works Section*/
+
+	.how h1{
+	    font-weight: 600;
+	    margin-top: 2%;
+	    margin-bottom: 4%;
+	    text-align: center;
+	}
+	.how .row{
+		margin-bottom: 3%;
+	}
+	.how .row .col-lg-4 img{
+	    width: 70%;
+	    float: right;
+	}
+	.how .row .col-lg-8{
+	    margin-top: 1%;
+	}
+	.how .row .col-lg-8 .row{
+	    margin-bottom: 3%;
+	    margin-top: 5%;
+	    margin-left: 2%;
+	}
+	.how .row .col-lg-8 .col-1{
+	    padding: 0;
+	    text-align: center;
+	    font-size: 40px;
+	    border: 2px solid #04b3a7;
+	    border-radius: 50%;
+	    height: 64px;
+	    font-family: 'Lato',sans-serif;
+	    color: #222;
+	    font-weight: 300;
+	}
+	.how .row .col-lg-8 .col-11 p{
+	    font-size: 24px;
+	}
+	.how .row .col-lg-8 .col-3{
+	    padding: 0;
+	    margin-right: 2%;
+	}
+	.how .row .col-lg-8 .col-3 img{
+	    width: 100%;
+	}
+
+/*Cities Section*/
+
+	.city{
+		background: #e9e9e9;
+		padding: 3% 0;
+	}
+	.city h1{
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 3%;
+		font-weight: 600;
+	}
+	.city .card{
+	    background: none;
+	    border: none;
+	}
+	.city .card-body h5{
+	    font-weight: 600;
+	    font-size: 21px;
+	}
+	.city .row .col-2, .city .row .col-10{
+		padding: 0;
+	}
+
+/*Testimonial Section*/
+
+	.testimonial{
+		background: linear-gradient( rgba(1, 53, 50, 0.9), rgba(1, 52, 58, 0.9)), url(../images/back-customers.jpg);
+		background-position: center;
+		background-size: cover;
+		min-height: 360px;
+		text-align: center;
+		color: #fff;
+		padding: 3% 0;
+	}
+	.testimonial h1{
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    padding-bottom: 2%;
+	}
+	.testimonial p{
+	    box-sizing: border-box;
+	    padding: 0 20%;
+	    font-size: 20px;
+	    font-weight: 400;
+	    line-height: 1.7;
+	}
+	.testimonial .row{}
+	.testimonial .row .col-6 img{
+	    float: right;
+	    border-radius: 50%;
+	}
+	.testimonial .row .col-6 h4{
+	    text-align: left;
+	    margin: 10% 0;
+	    margin-left: 3%;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 24px;
+	}
+
+/*Plans Section*/
+
+	.plans{
+	    padding: 3% 0;
+	    background: #e9e9e9;
+	}
+	.plans h1{
+	    text-transform: uppercase;
+	    text-align: center;
+	    margin-bottom: 5%;
+	    font-weight: 600;
+	    font-size: 45px;
+	}
+	.plans .card-deck{
+	    display: inline-block;
+	    margin-right: 0;
+	}
+	.plans .card-deck .card{
+	    box-shadow: 0 0 5px #cccaca;
+	    padding: 4% 0;
+	    min-height: 474px;
+	    transition: all 0.2s linear;
+	}
+	.plans .card-deck .card-body h5{
+	    text-align: center;
+	    font-size: 41px;
+	    font-weight: 600;
+	    color: #222;
+	    text-transform: uppercase;
+	}
+	.plans .card-deck .card-body h2{
+	    text-align: center;
+	    font-size: 37px;
+	    font-weight: 600;
+	    margin-bottom: 7%;
+	}
+	.plans .card-deck .card-body .quantity{
+	    font-size: 25px;
+	    font-weight: 400;
+	}
+	.plans .card-deck .card-body ul{
+	    list-style: none;
+	    padding: 0;
+	    margin-bottom: 8%;
+	}
+	.plans .card-deck .card-body ul li{
+	    margin-bottom: 6%;
+	    font-size: 20px;
+	}
+	.plans .card-deck .card-body ul li i{
+	    color: #267f5f;
+	    margin-right: 2%;
+	}
+	.plans .card-deck .card-body .btn-sign{
+	    border: 2px solid #00867d;
+	    margin-left: 25%;
+	    transition: all 0.2s linear;
+	}
+	.plans .card:hover,
+	.plans .card:hover h5,
+	.plans .card:hover ul li i{
+		color: #fff !important;
+		background: #008882;
+	}
+	.plans .card:hover .btn-sign{
+		border: 2px solid #fff;
+		color: #fff;
+	}
+	.plans .card-deck .card-body .btn-sign:hover{
+		transform: scale(1.1);
+		background: #00c29e;
+	}
+
+/*Subscription Section*/
+
+	.subscription{
+	    padding: 2% 0;
+	}
+	.subscription h1{
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    text-align: center;
+	    margin-bottom: 3%;
+	}
+	.subscription .form-horizontal{
+	    padding: 0px 27%;
+	}
+	.subscription .form-horizontal .form-group{
+	    margin-bottom: 5%;
+	}
+	.subscription .form-horizontal .form-control{
+	    border: none;
+	    background: #e9e9e9;
+	    color: #ccc;
+	}
+	.subscription .form-horizontal .custom-select{
+	    border: none;
+	    background: #e9e9e9;
+	    color: #6c757d;
+	}
+	.subscription .form-horizontal .btn-touch{
+	    border: 2px solid #00867d;
+	    margin: 0 38%;
+	    transition: all 0.2s linear;
+	    padding-left: 6%;
+	    padding-right: 6%;
+	    font-size: 18px;
+	    color: #222;
+	    margin-top: 2%;
+	}
+	.subscription .form-horizontal .form-control:hover,
+	.subscription .form-horizontal .form-control:focus,
+	.subscription .form-horizontal .custom-select:hover,
+	.subscription .form-horizontal .custom-select:focus{
+		border: 2px solid #00867d;
+		box-shadow: none;
+	}
+	.subscription .form-horizontal .btn-touch:hover{
+		transform: scale(1.1);
+		background: #00867d;
+		color: #fff;
+	}
+
+/*Maps Section*/
+
+	.maps{
+		background: linear-gradient(to right, rgba(0, 16, 10, 0.9), rgba(0, 37, 27, 0.8)), url(../images/portugal.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 3% 0;
+	}
+	.maps .col-md-6{
+	    color: #fff;
+	}
+	.maps .col-md-6 img{
+	    float: right;
+	    width: 95%;
+	}
+	.maps .col-md-6 h1{
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    margin-top: 7%;
+	    margin-bottom: 4%;
+	}
+	.maps .col-md-6 ul{
+	    list-style: none;
+	    padding: 0;
+	}
+	.maps .col-md-6 ul li{
+	    font-size: 22px;
+	    margin-bottom: 4%;
+	}
+	.maps .col-md-6 ul li a{
+		color: #fff;
+	}
+	.maps .col-md-6 ul li a:hover{
+		color: #00a993;
+	}
+	.maps .col-md-6 .connect li{
+	    display: inline-block;
+	    margin-right: 3%;
+	}
+	.maps .col-md-6 .connect li i{
+	    width: 7vh;
+	    height: 7vh;
+	    line-height: 7vh;
+	    background: #fff;
+	    color: #000;
+	    text-align: center;
+	    border-radius: 50%;
+	    font-size: 26px;
+	    transition: all 0.1s linear;
+	}
+	.maps .col-md-6 .connect li i:hover{
+		background: #00a993;
+		color: #fff;
+	}
+
+/*Breakpoints Integration*/
+
+@media (max-width: 575.98px) {
+	/*Navbar Section*/
+	.navbar .nav-item{
+		margin: 0;
+		margin-bottom: 3%;
+	}
+	.navbar .btn-custom{
+		display: inline-block;
+		width: 35%
+	}
+	/*Banner Section*/
+	.banner .row h1{
+		font-size: 30px;
+	}
+	.banner .btn{
+		transform: scale(0.9);
+	}
+	/*About Section*/
+	.about .row .col-12 h1{
+		font-size: 30px;
+		padding-top: 2%;
+	}
+	.about .row .col-12 p{
+		font-size: 16px;
+		padding: 0px 10%;
+		line-height: 1.5;
+	}
+	.about .row .card{
+		margin-bottom: 2%;
+		min-height: 200px;
+		text-align: left;
+	}
+	.about .row .card .card-body h5{
+		font-size: 24px;
+	}
+	/*How It Works Section*/
+	.how h1{
+		margin: 4% 0;
+	}
+	.how .row .col-sm-12 img{
+		width: 40%;
+		float: left;
+		padding: 0 28%;
+		box-sizing: content-box;
+		margin-bottom: 2%;
+	}
+	.how .row .col-sm-12 .col-1{
+		height: 45px;
+		font-size: 22px;
+	}
+	.how .row .col-sm-12 .col-11 p{
+		font-size: 18px;
+	}
+	/*Cities Section*/
+	.city .card-body h5{
+		padding-left: 3%;
+	}
+	.city .row .col-2{
+		text-align: center;
+		vertical-align: middle;
+	}
+	/*Testimonial Section*/
+	.testimonial p{
+		padding: 0 10%;
+	}
+	/*Plans Section*/
+	.plans .card{
+		min-width: 370px;
+		margin-left: 26% !important;
+	}
+	/*Subscription Section*/
+	.subscription h1{
+		padding: 3% 0;
+	}
+	.subscription .form-horizontal .btn-touch{
+		margin: 4% 26%;
+	}
+}
+@media (max-width: 767.98px) {
+	.banner .row h1{
+		font-size: 30px;
+	}
+	/*About Section*/
+	.about .row .col-12 h1{
+		font-size: 30px;
+		padding-top: 2%;
+	}
+	.about .row .col-12 p{
+		font-size: 16px;
+		padding: 0px 10%;
+		line-height: 1.5;
+	}
+	.about .row .card{
+		margin-bottom: 2%;
+		min-height: 200px;
+		text-align: left;
+	}
+	.how h1{
+		margin: 4% 0;
+	}
+	.how .row .col-sm-12 img{
+		width: 40%;
+		float: left;
+		padding: 0 28%;
+		box-sizing: content-box;
+		margin-bottom: 2%;
+	}
+	.how .row .col-sm-12 .col-1{
+		height: 42px;
+		font-size: 22px;
+	}
+	.how .row .col-lg-8 .col-3{
+		transform: scale(1.2);
+    	margin-right: 8%;
+	}
+	.city .card{
+		min-width: 225px;
+	}
+	.testimonial p{
+		padding: 0 10%;
+	}
+	.plans .card{
+		min-width: 370px;
+		margin-left: 23% !important;
+		margin-bottom: 4%;
+	}
+	.subscription .form-horizontal{
+		padding: 0 15%;
+	}
+	.subscription .form-horizontal .btn-touch{
+		margin: 4% 35%;
+	}
+}
+@media (max-width: 991.98px) {
+	.about{
+		padding: 3% 0;
+	}
+	.about .row .col-12 h1{
+		font-size: 35px;
+		padding-top: 2%;
+	}
+	.about .row .col-12 p{
+		font-size: 16px;
+		padding: 0px 10%;
+		line-height: 1.5;
+	}
+	.about .row .card{
+		margin-bottom: 6%;
+		min-height: 200px;
+	}
+	.how h1{
+		margin: 4% 0;
+	}
+	.how .row .col-sm-12 img{
+		width: 40%;
+		float: left;
+		padding: 0 30%;
+		box-sizing: content-box;
+		margin-bottom: 2%;
+	}
+	.how .row .col-sm-12 .col-1{
+		height: 52px;
+		font-size: 28px;
+	}
+	.how .row .col-lg-8 .col-3{
+		transform: scale(1.1);
+    	margin-right: 8%;
+	}
+	.city .card{
+		min-width: 225px;
+	}
+	.testimonial p{
+		padding: 0 10%;
+	}
+	.plans .card{
+		min-width: 370px;
+		margin-left: 45%;
+		margin-bottom: 4%;
+	}
+	.subscription .form-horizontal{
+		padding: 0 15%;
+	}
+	.subscription .form-horizontal .btn-touch{
+		margin: 4% 35%;
+	}
+	.maps{
+		padding: 4% 0;
+	}
+	.maps .col-md-6 img{
+	    width: 100%;
+	}
+	.maps .col-md-6 ul li{
+	    font-size: 17px;
+	    margin-bottom: 3%;
+	}
+	.maps .col-md-6 h1{
+		font-size: 20px;
+	}
+	.maps .col-md-6 .connect li i{
+		width: 5vh;
+		height: 5vh;
+		line-height: 5vh;
+		font-size: 16px;
+	}
+}
+@media (max-width: 1199.98px) {
+	.navbar .nav-item{
+		margin:0;
+	}
+	.about .row .card{
+		margin-bottom: 3%;
+		min-height: 200px;
+		text-align: left;
+	}
+	.how .row .col-sm-12 .col-1{
+		height: 48px;
+		font-size: 28px;
+	}
+	.plans .card{
+		min-width: 360px;
+		padding: 0 !important;
+		margin-bottom: 5%;
+	}
+}
